@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ReligionGenderSexuality/static/css/main.c9d5122a.css",
+    "main.js": "/ReligionGenderSexuality/static/js/main.c59f8798.js",
+    "index.html": "/ReligionGenderSexuality/index.html",
+    "main.c9d5122a.css.map": "/ReligionGenderSexuality/static/css/main.c9d5122a.css.map",
+    "main.c59f8798.js.map": "/ReligionGenderSexuality/static/js/main.c59f8798.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c9d5122a.css",
+    "static/js/main.c59f8798.js"
+  ]
+}

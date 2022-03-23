@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/ReligionGenderSexuality/static/css/main.c9d5122a.css",
-    "main.js": "/ReligionGenderSexuality/static/js/main.7a9c6446.js",
+    "main.css": "/ReligionGenderSexuality/static/css/main.659ddc24.css",
+    "main.js": "/ReligionGenderSexuality/static/js/main.b008a013.js",
     "index.html": "/ReligionGenderSexuality/index.html",
-    "main.c9d5122a.css.map": "/ReligionGenderSexuality/static/css/main.c9d5122a.css.map",
-    "main.7a9c6446.js.map": "/ReligionGenderSexuality/static/js/main.7a9c6446.js.map"
+    "main.659ddc24.css.map": "/ReligionGenderSexuality/static/css/main.659ddc24.css.map",
+    "main.b008a013.js.map": "/ReligionGenderSexuality/static/js/main.b008a013.js.map"
   },
   "entrypoints": [
-    "static/css/main.c9d5122a.css",
-    "static/js/main.7a9c6446.js"
+    "static/css/main.659ddc24.css",
+    "static/js/main.b008a013.js"
   ]
 }

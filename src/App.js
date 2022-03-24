@@ -11,11 +11,31 @@ function App() {
     return(
         <div>
             <Header />
-            <Menu />
             <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/MoviePicks" element={<Movie />} />
-                <Route path="/ThemeWordle" element={<ThemeWordle />} />
+                <Route path="/ReligionGenderSexuality/" element={
+                    <>
+                        <Menu 
+                            str="menu"
+                        />
+                        <Home />
+                    </>
+                } />
+                <Route path="/MoviePicks/" element={
+                    <>
+                        <Menu 
+                            str="movie"
+                        />
+                        <Movie />
+                    </>
+                } />
+                <Route path="/ThemeWordle/" element={
+                    <>
+                        <Menu 
+                            str="themeWordle"
+                        />
+                        <ThemeWordle />
+                    </>
+                } />
             </Routes>
         </div>
     );

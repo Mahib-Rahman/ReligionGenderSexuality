@@ -12,26 +12,23 @@
 	max-width: 30em;
     margin-right: auto;
     padding-left: 1rem;
-    text-align: center;
 }
 .diagonal-box > img {
     margin-left: auto;
-    max-width: 10rem;
+    max-width: 33%;
     object-fit: contain;
     height: auto;
+    padding: 1rem;
 }
 .content2 { 
     max-width: 30em;
     margin-left: 2rem;
     padding-right: 1rem;
-    text-align: center;
 }
 .diagonal-box2 >img {
-    max-width: 30em;
+    max-width: 33%;
     padding: 1rem;
 }
 .secTitle {
-    max-width: 30em;
     font-weight: bold;
-    margin-bottom: 1rem;
 }

@@ -3,7 +3,7 @@ import "./Menu.css";
 import {NavLink} from "react-router-dom";
 
 function Menu(props) {
-    let menu = false, movie = false, themeWordle = false;
+    let menu = false, movie = false, video = false;
     if(props.str === "menu"){
         menu = true;
     }
@@ -16,18 +16,18 @@ function Menu(props) {
     else{
         movie = false;
     }
-    if(props.str === "themeWordle"){
-        themeWordle = true;
+    if(props.str === "video"){
+        video = true;
     }
     else{
-        themeWordle = false;
+        video = false;
     }
     if(menu){
         return(
             <div className="menu">
                 <NavLink style={{color:'rgb(47, 53, 138)', backgroundColor: 'rgb(191, 154, 194)'}} className="menuButton" to="/ReligionGenderSexuality/">Home</NavLink>
                 <NavLink className="menuButton" to="/MoviePicks/">Movie Picks</NavLink>
-                <NavLink className="menuButton" to="/ThemeWordle/">Thematic Wordle</NavLink>
+                <NavLink className="menuButton" to="/Video/">Video</NavLink>
             </div>
         );
     }
@@ -36,16 +36,16 @@ function Menu(props) {
             <div className="menu">
                 <NavLink className="menuButton" to="/ReligionGenderSexuality/">Home</NavLink>
                 <NavLink style={{color:'rgb(47, 53, 138)', backgroundColor: 'rgb(191, 154, 194)'}} className="menuButton" to="/MoviePicks/">Movie Picks</NavLink>
-                <NavLink className="menuButton" to="/ThemeWordle/">Thematic Wordle</NavLink>
+                <NavLink className="menuButton" to="/Video/">Video</NavLink>
             </div>
         );
     }
-    if(themeWordle){
+    if(video){
         return(
             <div className="menu">
                 <NavLink className="menuButton" to="/ReligionGenderSexuality/">Home</NavLink>
                 <NavLink className="menuButton" to="/MoviePicks/">Movie Picks</NavLink>
-                <NavLink style={{color:'rgb(47, 53, 138)', backgroundColor: 'rgb(191, 154, 194)'}} className="menuButton" to="/ThemeWordle/">Thematic Wordle</NavLink>
+                <NavLink style={{color:'rgb(47, 53, 138)', backgroundColor: 'rgb(191, 154, 194)'}} className="menuButton" to="/Video/">Video</NavLink>
             </div>
         );
     }
@@ -53,7 +53,7 @@ function Menu(props) {
         <div className="menu">
             <NavLink className="menuButton" to="/ReligionGenderSexuality/">Home</NavLink>
             <NavLink className="menuButton" to="/MoviePicks/">Movie Picks</NavLink>
-            <NavLink className="menuButton" to="/ThemeWordle/">Thematic Wordle</NavLink>
+            <NavLink className="menuButton" to="/Video/">Video</NavLink>
         </div>
     );
 }

@@ -3,7 +3,7 @@ import Header from './components/Header';
 import Menu from './components/Menu';
 import Home from './components/Home';
 import Movie from './components/Movie';
-import ThemeWordle from './components/ThemeWordle';
+import Video from './components/Video';
 
 import {Routes, Route} from "react-router-dom";
 
@@ -28,12 +28,12 @@ function App() {
                         <Movie />
                     </>
                 } />
-                <Route path="/ThemeWordle/" element={
+                <Route path="/Video/" element={
                     <>
                         <Menu 
-                            str="themeWordle"
+                            str="video"
                         />
-                        <ThemeWordle />
+                        <Video />
                     </>
                 } />
             </Routes>
